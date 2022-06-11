@@ -1,0 +1,24 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Toxin Hub")
+
+local serv = win:Server("Mining Simulator 2", "")
+local btns = serv:Channel("Credits")
+btns:Button("Script Hub made by Toxin#9272", function()
+
+end)
+btns:Button("Click to copy discord link", function()
+setclipboard("https://discord.gg/SSySHvWu8c")
+end)
+local btns = serv:Channel("Scripts")
+btns:Button("Grey Gui (BEST)", function()
+loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
+end)
+
+btns:Button("Shiny Tool (Key Needed)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolSupported/main/ShinyTool.lua"))()
+end)
+
+btns:Button("System Exodus", function()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/MiningSimulator/MiningSimulator2.lua", true))()
+end)
