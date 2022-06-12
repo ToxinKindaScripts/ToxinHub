@@ -1,1 +1,24 @@
-placeholder
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Toxin Hub")
+
+local serv = win:Server("Pet Simulator X", "")
+local btns = serv:Channel("Credits")
+btns:Button("Script Hub made by Toxin#9272", function()
+
+end)
+btns:Button("Click to copy discord link", function()
+setclipboard("https://discord.gg/SSySHvWu8c")
+end)
+local btns = serv:Channel("Scripts")
+btns:Button("Project Meow (Key Needed)", function()
+loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+end)
+
+btns:Button("Shiny Tool (Key Needed)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyToolSupported/main/ShinyTool.lua"))()
+end)
+
+btns:Button("System Exodus (Currently Outdated)", function()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+end)
