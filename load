@@ -1,1 +1,6 @@
---placeholder
+if game.PlaceId == 6284583030 then
+loadstring(game:HttpGet"https://raw.githubusercontent.com/ToxinKindaScripts/ToxinHub/main/petsimx")()
+
+else
+if game.PlaceId == 9551640993 then
+loadstring(game:HttpGet"https://raw.githubusercontent.com/ToxinKindaScripts/ToxinHub/main/miningsim2")()
