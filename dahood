@@ -1,0 +1,22 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Toxin Hub")
+
+local serv = win:Server("Da Hood", "")
+local btns = serv:Channel("Credits")
+btns:Button("Script Hub made by Toxin#9272", function()
+end)
+
+local btns = serv:Channel("Scripts")
+
+btns:Button("Vortex", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+end)
+
+btns:Button("Terminator X", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FarmyScript/Dahood-GUI-/main/README.md"))()
+end)
+
+btns:Button("SPACE X", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+end)
