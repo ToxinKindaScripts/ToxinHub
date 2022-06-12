@@ -1,0 +1,25 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Toxin Hub")
+
+local serv = win:Server("Shindo Life", "")
+local btns = serv:Channel("Credits")
+btns:Button("Script Hub made by Toxin#9272", function()
+end)
+
+local btns = serv:Channel("Scripts")
+btns:Button("Snow Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))()
+end)
+
+btns:Button("V.G Hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+btns:Button("Project Meow", function()
+pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))())
+end)
+
+btns:Button("Lite", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/PremierX-Free.lua", true))()
+end)
