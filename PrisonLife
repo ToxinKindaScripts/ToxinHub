@@ -1,0 +1,20 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Toxin Hub")
+
+local serv = win:Server("Prison Life", "")
+local btns = serv:Channel("Credits")
+btns:Button("Script Hub made by Toxin#9272", function()
+end)
+btns:Button("Click to copy discord link", function()
+setclipboard("https://discord.gg/SSySHvWu8c")
+end)
+
+local btns = serv:Channel("Scripts")
+btns:Button("Toxin Hub Offical Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxinKindaScripts/PrisonLife/main/script", true))()
+end)
+
+btns:Button("Vynixius", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Prison%20Life/Script.lua"))()
+end)
