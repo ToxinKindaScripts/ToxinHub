@@ -3,4 +3,13 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/ToxinKindaScripts/Toxi
 
 elseif game.PlaceId == 9551640993 then
 loadstring(game:HttpGet"https://raw.githubusercontent.com/ToxinKindaScripts/ToxinHub/main/miningsim2")()
+
+elseif game.PlaceId == 4616652839 then
+loadstring(game:HttpGet"https://raw.githubusercontent.com/ToxinKindaScripts/ToxinHub/main/shindolife")()
+
+elseif game.PlaceId == 155615604 then
+loadstring(game:HttpGet"https://raw.githubusercontent.com/ToxinKindaScripts/ToxinHub/main/PrisonLife")()
+
+elseif game.PlaceId == 2788229376 then
+loadstring(game:HttpGet"https://raw.githubusercontent.com/ToxinKindaScripts/ToxinHub/main/dahood")()
 end
