@@ -1,1 +1,27 @@
 
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Toxin Hub")
+
+local serv = win:Server("Mining Simulator 2", "")
+local btns = serv:Channel("Credits")
+btns:Button("Script Hub made by Toxin#9272", function()
+end)
+
+btns:Button("Click to copy discord link", function()
+setclipboard("https://discord.gg/SSySHvWu8c")
+end)
+
+local btns = serv:Channel("Scripts")
+
+btns:Button("Future Client", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+btns:Button("Vxpe Client", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+btns:Button("BedWars Monkey", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
+end)
