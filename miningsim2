@@ -12,7 +12,7 @@ setclipboard("https://discord.gg/SSySHvWu8c")
 end)
 local btns = serv:Channel("Scripts")
 btns:Button("Grey Gui (BEST)", function()
-loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
 end)
 
 btns:Button("Shiny Tool (Key Needed)", function()
