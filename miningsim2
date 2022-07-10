@@ -24,5 +24,5 @@ loadstring(game:HttpGet("https://system-exodus.com/scripts/MiningSimulator/Minin
 end)
 
 btns:Button("Vestra Hub (OP)", function()
-loadstring(game:HttpGet("https://script.vestrahub.xyz",true))()
+loadstring(game:HttpGet("https://script.vestrahub.com"))()
 end)
