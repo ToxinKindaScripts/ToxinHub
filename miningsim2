@@ -11,6 +11,7 @@ btns:Button("Click to copy discord link", function()
 setclipboard("https://discord.gg/SSySHvWu8c")
 end)
 local btns = serv:Channel("Scripts")
+
 btns:Button("Grey Gui", function()
 loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
 end)
@@ -23,6 +24,12 @@ btns:Button("System Exodus", function()
 loadstring(game:HttpGet("https://system-exodus.com/scripts/MiningSimulator/MiningSimulator2.lua", true))()
 end)
 
-btns:Button("Vestra Hub (OP)", function()
+btns:Button("Vestra Hub", function()
 loadstring(game:HttpGet("https://script.vestrahub.com"))()
 end)
+
+btns:Button("Strelizia", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Strelizia22/Strelizia/main/MS2Main.lua"))()
+end)
+
+
